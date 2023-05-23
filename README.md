@@ -15,5 +15,6 @@ To contibute:
 ## Stack
 
 ### Related repositories
+- [Issues, Discussions, Documentation] - https://github.com/CommunityFocus/CommunityFocus
 - [CommunityFocus Backend] - https://github.com/CommunityFocus/cf-backend
 - [CommunityFocus Frontend] - https://github.com/CommunityFocus/cf-frontend
