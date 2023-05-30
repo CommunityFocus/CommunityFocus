@@ -1,4 +1,3 @@
-
 # CommunityFocus Contributing Guide
 
 Want to contribute to Community Focus? Don't know where to start? Don't feel ready to contribute? Read this!
