@@ -93,9 +93,8 @@ Once you've pushed changes to your main branch, you will need to submit a pull r
 6. Your changes will be merged after a reviewer approves your changes
 
 ![Screenshot of directions to submit PR](assets/submit-PR.PNG)
+![Screenshot of directions to submit PR description](assets/submit-PR-desc.PNG)
 
 ### Syncing your fork on GitHub
 
-Before making changes to your code, make sure to sync your fork. Syncing your fork will pull all the changes from the original project onto your fork. Once synced, run `git pull` on your local files to pull the changes from your remote repository to your local repository
-
-![Screenshot of directions to sync fork](assets/sync-fork.PNG)
+Before making changes to your code, make sure to sync your fork. Syncing your fork will pull all the changes from the original project onto your fork. Once synced, run `git pull` on your local files to pull the changes from your remote repository to your local repository.
