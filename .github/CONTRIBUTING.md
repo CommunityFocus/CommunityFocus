@@ -83,5 +83,19 @@ You're now ready to work on your assigned issue! Make changes like you would on 
 
 ### Sending a Pull Request
 
+Once you've pushed changes to your main branch, you will need to submit a pull request which is essentially a request for your changes to be merged to the original project.
+
+1. Visit your GitHub profile and navigate to the repo where you made changes; either frontend, backend, or both
+2. You will now see a "Compare & Pull Request" prompting you to create a pull request
+3. Click on "Compare & Pull Request"
+4. Fill the PR template describing the changes you made
+5. A reviewer will be assigned to review your changes
+6. Your changes will be merged after a reviewer approves your changes
+
+![Screenshot of directions to submit PR](assets/submit-PR.PNG)
 
 ### Syncing your fork on GitHub
+
+Before making changes to your code, make sure to sync your fork. Syncing your fork will pull all the changes from the original project onto your fork. Once synced, run `git pull` on your local files to pull the changes from your remote repository to your local repository
+
+![Screenshot of directions to sync fork](assets/sync-fork.PNG)
