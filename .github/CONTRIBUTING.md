@@ -7,7 +7,7 @@ Want to contribute to Community Focus? Don't know where to start? Don't feel rea
 
 1. [Prequisites](#prerequisites)
 2. [How To Contribute?](#how-to-contribute)
-3. [Issue](#issues)
+3. [Issues](#issues)
 4. [Editing Code](#editing-code)
 
 ## Prerequisites
@@ -35,11 +35,11 @@ All current open issues can be found [here](https://github.com/CommunityFocus/Co
 
 Community Focus is distributed over 2 repositories; the frontend and the bankend. Follow the guide below to make changes and submit a pull request.
 
-#### Repositories
+### Repositories
 1. Navigate to the [frontend repo](https://github.com/CommunityFocus/cf-frontend)
 2. Navigate to the [backend repo](https://github.com/CommunityFocus/cf-backend)
 
-#### Forking
+### Forking
 
 1. Navigate to the repositories listed above
 2. Locate the `Fork` button on the top right hand side of the webpage just below your username icon
@@ -50,7 +50,7 @@ Community Focus is distributed over 2 repositories; the frontend and the bankend
 
 Once forked, you wil have copies of the repositositories, under your profile, to freely modify and make changes to the codebase.
 
-#### Cloning
+### Cloning
 
 1. Navigate to the forked repositories on your profile page
 2. Locate and click the `Code` button above the list of files
@@ -67,7 +67,7 @@ Community Focus/
 |-- cf-frontend
 `-- cf-backend
 
-#### Making Changes
+### Making Changes
 
 You're now ready to work on your assigned issue! Make changes like you would on any other project. Once you've made the chagnes and tested them thoroughly, you're ready to push changes to your fork!
 
@@ -82,7 +82,7 @@ You're now ready to work on your assigned issue! Make changes like you would on 
 9. Commit your changes using `git commit -m "Commit-message"`
 10. Push your changes to your fork using `git push`
 
-#### Sending a Pull Request
+### Sending a Pull Request
 
 
-#### Syncing your fork on GitHub
+### Syncing your fork on GitHub
