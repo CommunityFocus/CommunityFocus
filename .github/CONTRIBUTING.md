@@ -11,7 +11,7 @@ Want to contribute to Community Focus? Don't know where to start? Don't feel rea
 
 ## Prerequisites
 
-Contributing to Community Focus doesn't require any prerequisites. Few resources that can help you get started with git, React and Typescript are listed below however, you can also reach out to us if you're struggling with anything and we'd be happy to guide you to the rght direction. We expect you to use the resources and try and figure out issues on your own first as this is a learning opportunity.
+Contributing to Community Focus doesn't require any prerequisites. Few resources that can help you get started with git, React and Typescript are listed below however, you can also reach out to us if you're struggling with anything and we'd be happy to guide you to the right direction. We expect you to use the resources and try and figure out issues on your own first as this is a learning opportunity.
 
 - [Git Book](https://git-scm.com/book/en/v2)
 - [Traversy Media React Crash Course](https://youtu.be/w7ejDZ8SWv8)
@@ -20,7 +20,7 @@ Contributing to Community Focus doesn't require any prerequisites. Few resources
 
 ## How To Contribute
 
-CommunityFocus is built by members of 100Devs but it's open to everyone. If you're a member of 100Devs, join the [Community Focus thread](https://discord.com/channels/735923219315425401/1105270039956951170) on Discord as we hold weekly standups. Send us a message on the thread and we'll assist you in finding issues that match the learning stage you're at right now! Please don't hesistate to ask questions and contribute!
+CommunityFocus.app is built by members of 100Devs but it's open to everyone. If you're a member of 100Devs, join the [Community Focus thread](https://discord.com/channels/735923219315425401/1105270039956951170) on Discord as we hold weekly standups. Send us a message on the thread and we'll assist you in finding issues that match the learning stage you're at right now! Please don't hesistate to ask questions and contribute!
 
 To contribute, we'd like you to start by introducing yourself in the [discussions](https://github.com/orgs/CommunityFocus/discussions/24) conversation.
 
@@ -66,22 +66,32 @@ Community Focus/
 |-- cf-frontend
 `-- cf-backend
 
+### Installing Dependencies and Running Project Locally
+
+Community Focus uses a number of packges that are required to run the project. These packages are not pushed into the remote repository so you will need to install these dependencies to your local projects files.
+
+1. Open a terminal on VS Code and cd to `cf-frontend`
+2. Open a split terminla and cd to `cf-backend`
+3. Run `npm install` on both terminals - this will install all the dependencies to your local repository (you will see a node_modules folder pop up on each directory)
+4. Run `npm run dev` on both to run the app!
+
 ### Making Changes
 
-You're now ready to work on your assigned issue! Make changes like you would on any other project. Once you've made the chagnes and tested them thoroughly, you're ready to push changes to your fork!
+You're now all set to work on your assigned issue!
 
-1. Open a terminal and cd to `cf-frontend`
-2. Open a split terminal and cd to `cf-backend`
-3. Run `npm run dev` on both terminals to run the app
-4. Make your changes
-5. Test thoroughly
-6. Run `npm run format <path-of-file(s)-you-changed>` - if you changed multiple files, please run this command separately for each file. This command runs prettier and formats the file(s) to Community Focus's configurations
-7. Run `npm run lint`
-8. Fix ESLint errors if any
-9. Commit your changes using `git commit -m "Commit-message"`
-10. Push your changes to your fork using `git push`
+#### Changing Code
 
-### Sending a Pull Request
+Make changes like you would on any other project. Once you've made the chagnes and tested them thoroughly, you're ready to push changes to your fork!
+
+1. Make your changes
+2. Test thoroughly
+3. Run `npm run format <path-of-file(s)-you-changed>` - if you changed multiple files, please run this command separately for each file. This command runs prettier and formats the file(s) to Community Focus's configurations
+4. Run `npm run lint`
+5. Fix ESLint errors if any
+6. Commit your changes using `git commit -m "Commit-message"`
+7. Push your changes to your fork using `git push`
+
+#### Sending a Pull Request
 
 Once you've pushed changes to your main branch, you will need to submit a pull request which is essentially a request for your changes to be merged to the original project.
 
