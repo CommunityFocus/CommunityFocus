@@ -68,12 +68,13 @@ Community Focus/
 
 ### Installing Dependencies and Running Project Locally
 
-Community Focus uses a number of packges that are required to run the project. These packages are not pushed into the remote repository so you will need to install these dependencies to your local projects files.
+Community Focus uses a number of packages that are required to run the project. These packages are not pushed into the remote repository so you will need to install these dependencies to your local projects files.
 
 1. Open a terminal on VS Code and cd to `cf-frontend`
-2. Open a split terminla and cd to `cf-backend`
+2. Open a split terminal and cd to `cf-backend`
 3. Run `npm install` on both terminals - this will install all the dependencies to your local repository (you will see a node_modules folder pop up on each directory)
 4. Run `npm run dev` on both to run the app!
+5. You will see a link in your terminal for the localhost port to open the app in your browser. It will look like `http://127.0.0.1:5100/`
 
 ### Making Changes
 
@@ -81,15 +82,16 @@ You're now all set to work on your assigned issue!
 
 #### Changing Code
 
-Make changes like you would on any other project. Once you've made the chagnes and tested them thoroughly, you're ready to push changes to your fork!
+Make changes like you would on any other project. Once you've made the changes and tested them thoroughly, you're ready to push changes to your fork!
 
 1. Make your changes
 2. Test thoroughly
 3. Run `npm run format <path-of-file(s)-you-changed>` - if you changed multiple files, please run this command separately for each file. This command runs prettier and formats the file(s) to Community Focus's configurations
 4. Run `npm run lint`
 5. Fix ESLint errors if any
-6. Commit your changes using `git commit -m "Commit-message"`
-7. Push your changes to your fork using `git push`
+6. Run `npm run test` for any unit tests to run. They should all pass. If not, you need to see why the test failed and fix either the code, or update the tests to reflect your code changes.
+7. Commit your changes using `git commit -m "Commit-message"`
+8. Push your changes to your fork using `git push`
 
 #### Sending a Pull Request
 
