@@ -5,7 +5,7 @@ CommunityFocus is a sharable time tracking app for teams.
 
 ## Tech Stack
 
-TypeScript, React, Web Sockets
+TypeScript, React, Web Sockets, MongoDB, Node.js, Express.js
 
 ## Getting Started
 
